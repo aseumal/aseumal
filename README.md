@@ -11,7 +11,7 @@
 
 ## About Me
 
-AI engineer and data scientist building production-grade agentic systems and the governance infrastructure to run them responsibly. Currently a PhD Scholar in Data Science at the **Asian Institute of Management** (MSDS Program) and focused on multi-agent AI architecture, observability, and enterprise AI deployment.
+AI engineer and data scientist building production-grade agentic systems and the governance infrastructure to run them responsibly. Currently a PhD Scholar in Data Science at the **Asian Institute of Management** (also MSDS graduate) and focused on multi-agent AI architecture, observability, and enterprise AI deployment.
 
 I build across the full stack — from LangGraph supervisor pipelines and RAG retrieval systems to FastAPI backends and React dashboards — with a strong emphasis on code quality, testability, and enterprise patterns.
 
