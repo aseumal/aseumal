@@ -59,6 +59,21 @@ A deliberate multi-framework series demonstrating production-grade agent enginee
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>🧪 <a href="https://github.com/aseumal/vrtq-rl">VRTQ-RL</a></h3>
+      <p><strong>Reinforcement Learning for Test Prioritization, with Genuine Multi-Agent Negotiation</strong></p>
+      <p>Extends the VRTQ framework (the same one powering QualityGuard AI) with PPO reinforcement learning. First training run scored <em>worse than random</em> on fault detection — root-caused to four distinct issues (train/eval data leakage, reward-objective misalignment, missing action masking, undertraining), fixed each, and validated honestly across a 5-seed evaluation sweep rather than reporting one lucky run. Adds an opt-in AutoGen layer where a Supervisor agent and a Critic agent genuinely negotiate over real tool calls — the Critic can trigger an actual re-run with different parameters, not just generate more chat text.</p>
+      <p>🔗 <strong>Extends QualityGuard AI's VRTQ framework</strong> — same heuristic, now with a learned RL policy and real multi-agent negotiation layered on top.</p>
+      <p><strong>Stack:</strong> Python · Gymnasium · Stable-Baselines3 + sb3-contrib (MaskablePPO) · AutoGen · FastAPI · React · MLflow</p>
+      <p>
+        <img src="https://img.shields.io/badge/Reinforcement%20Learning-7C3AED?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AutoGen-2563EB?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -109,6 +124,7 @@ A deliberate multi-framework series demonstrating production-grade agent enginee
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-F97316?style=for-the-badge&logoColor=white)
+![AutoGen](https://img.shields.io/badge/AutoGen-2563EB?style=for-the-badge&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Claude%20API-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
 ![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
@@ -128,9 +144,12 @@ A deliberate multi-framework series demonstrating production-grade agent enginee
 **ML & Data Science**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-7C3AED?style=for-the-badge&logoColor=white)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-0A7E8C?style=for-the-badge&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 
 </p>
 
@@ -150,7 +169,7 @@ A deliberate multi-framework series demonstrating production-grade agent enginee
 
 ## Currently
 
-- 🤖 Building the **VRTQ-RL** agent — AutoGen + Reinforcement Learning for intelligent test optimization (targeting SoftCon 2026)
+- 🧪 Shipped **VRTQ-RL** — RL + genuine multi-agent negotiation for test prioritization (targeting STVR / JSS / IST)
 - 🛡️ Extending **Aegis** to support multi-agent governance across the full portfolio arc
 - 🎓 PhD Scholar in Data Science · Asian Institute of Management (MSDS)
 - 📝 Building in public on LinkedIn
